@@ -28,9 +28,9 @@ $(document).ready(function () {
     $('#materials .project-calculator__element:nth-child(5) .calculator-element__price').html(String(Math.round(homePrice * 0.5)).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1 ") + ' ₽')
     $('input#material_1').val(Math.round(homePrice * 0.125))
     $('input#material_2').val(Math.round(homePrice * 0.15))
-    $('input#material_3').val(Math.round(homePrice * 0.29))
-    $('input#material_4').val(Math.round(homePrice * 0.3))
-    $('input#material_5').val(Math.round(homePrice * 0.5))
+    $('input#material_4').val(Math.round(homePrice * 0.29))
+    $('input#material_5').val(Math.round(homePrice * 0.3))
+    $('input#material_6').val(Math.round(homePrice * 0.5))
 
     $('#fundaments .project-calculator__element:nth-child(2) .calculator-element__price').html(String(Math.round(homePrice * 0.2)).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1 ") + ' ₽')
     $('#fundaments .project-calculator__element:nth-child(3) .calculator-element__price').html(String(Math.round(homePrice * 0.39)).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1 ") + ' ₽')
