@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/N-style.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <section class="project-calculator" data-price="498000">
+    <div class="container w-container">
+      <div class="layout-content">
+        <div class="layout-head">
+          <h2 class="h2-title project-calculator__title">Или выберите подходящую комплектацию сами</h2>
+        </div>
+        <div class="project-calculator__wrapper">
+          <div class="project-calculator__items">
+            <div class="project-calculator__row">
+              <h3>Материал</h3>
+              <div class="project-calculator__elements" id="materials">
+                <div class="project-calculator__element ">
+                  <input type="radio" name="material" id="material_1" class="calculator-element-input" value="62250"
+                    data-name="Обрезной брус 150х200 мм" checked>
+                  <label for="material_1" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/i-1.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Обрезной брус <br> 150х200 мм</p>
+                      <h4 class="calculator-element__price">62 250 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="material" id="material_3" class="calculator-element-input" value="1649000"
+                    data-name="Профилированный брус 145х145 мм">
+                  <label for="material_3" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/i-3.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Профилированный брус 145х145 мм</p>
+                      <h4 class="calculator-element__price">1 649 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="material" id="material_4" class="calculator-element-input" value="1949000"
+                    data-name="Обрезной брус 145х195 мм">
+                  <label for="material_4" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/i-4.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Профилированный брус 145х195 мм</p>
+                      <h4 class="calculator-element__price">1 949 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="material" id="material_5" class="calculator-element-input" value="1649000"
+                    data-name="Профилированный сухой брус 145х145 мм">
+                  <label for="material_5" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/i-5.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Профилированный сухой брус 145х145 мм</p>
+                      <h4 class="calculator-element__price">1 649 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="material" id="material_6" class="calculator-element-input" value="1649000"
+                    data-name="Обрезной брус 150х150 мм">
+                  <label for="material_6" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/i-6.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Профилированный
+                        сухой брус 145х195 мм</p>
+                      <h4 class="calculator-element__price">1 649 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="project-calculator__row">
+              <h3>Фундамент</h3>
+              <div class="project-calculator__elements" id="fundaments">
+                <div class="project-calculator__element ">
+                  <input type="radio" name="fundament" id="fundament_1" class="calculator-element-input" value="0"
+                    data-name="Уже есть фундамент">
+                  <label for="fundament_1" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/f-1.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Уже есть фундамент</p>
+                      <h4 class="calculator-element__price">0 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="fundament" id="fundament_2" class="calculator-element-input" value="230000"
+                    data-name="Свайно-винтовой" checked>
+                  <label for="fundament_2" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/f-2.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Свайно-винтовой</p>
+                      <h4 class="calculator-element__price">230 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="fundament" id="fundament_3" class="calculator-element-input" value="189240"
+                    data-name="Ленточно-армированный">
+                  <label for="fundament_3" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/f-3.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Ленточно-армированный</p>
+                      <h4 class="calculator-element__price">189 240 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="project-calculator__row">
+              <h3>Кровля</h3>
+              <div class="project-calculator__elements" id="crovlys">
+                <div class="project-calculator__element ">
+                  <input type="radio" name="crovly" id="crovly_1" class="calculator-element-input" value="0"
+                    data-name="Рубероид">
+                  <label for="crovly_1" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/k-1.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Рубероид</p>
+                      <h4 class="calculator-element__price">0 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="crovly" id="crovly_2" class="calculator-element-input" value="84660"
+                    data-name="Ондулин">
+                  <label for="crovly_2" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/k-2.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Ондулин</p>
+                      <h4 class="calculator-element__price">84 660 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="crovly" id="crovly_4" class="calculator-element-input" value="240000"
+                    data-name="Профлист" checked>
+                  <label for="crovly_4" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/k-4.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Профлист</p>
+                      <h4 class="calculator-element__price">240 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="crovly" id="crovly_3" class="calculator-element-input" value="1949000"
+                    data-name="Металлочерепица">
+                  <label for="crovly_3" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/k-3.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Металлочерепица</p>
+                      <h4 class="calculator-element__price">1 949 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="crovly" id="crovly_5" class="calculator-element-input" value="410000"
+                    data-name="Мягкая кровля">
+                  <label for="crovly_5" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/k-5.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Мягкая кровля</p>
+                      <h4 class="calculator-element__price">410 000 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="project-calculator__tablo ">
+            <h3 class="op-0">Итого</h3>
+
+            <div class="calculator-tablo" style="margin-bottom: 20px;">
+              <h3 class="calculator-tablo__title" style="text-align: center;">Стоимость строительств <br> (Для теста)
+              </h3>
+              <input type="number" class="wpforms-field-medium wpforms-field-required" id="wpforms-896-field_1"
+                placeholder="498000" value="498000" style="margin-bottom: 20px;">
+              <button id="start" class="cases-btn project-btn w-button">Старт</button>
+            </div>
+
+            <div class="calculator-tablo">
+              <h5 class="calculator-tablo__title"> Итого: <span class="summ">3 678 900 ₽</span></h5>
+              <a id="order-btn" href="#" class="cases-btn project-btn w-button">Получить смету<br>на строительство</a>
+              <a href="#" class="popular-item-btn-calc pp-catalog-quiz w-button">Рассчитать стоимость</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
