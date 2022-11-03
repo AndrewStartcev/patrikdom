@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Выберите подходящую комплектацию сами</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/N-style.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css?v=1.0.1">
+  <link rel="stylesheet" href="css/N-style.css?v=1.0.1">
+  <link rel="stylesheet" href="css/main.css?v=1.0.1">
 </head>
 
 <body>
@@ -29,8 +29,21 @@
               <h3>Материал</h3>
               <div class="project-calculator__elements" id="materials">
                 <div class="project-calculator__element ">
-                  <input type="radio" name="material" id="material_1" class="calculator-element-input" value="62250"
+                  <input type="radio" name="material" id="material_0" class="calculator-element-input" value="0"
                     data-name="Обрезной брус 150х200 мм" checked>
+                  <label for="material_0" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/i-1.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Обрезной брус <br> 150х150 мм</p>
+                      <h4 class="calculator-element__price">0 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="radio" name="material" id="material_1" class="calculator-element-input" value="62250"
+                    data-name="Обрезной брус 150х200 мм">
                   <label for="material_1" class="calculator-element">
                     <div class="calculator-element__cover">
                       <img src="img/i-1.png" alt="">
@@ -101,7 +114,7 @@
               <div class="project-calculator__elements" id="fundaments">
                 <div class="project-calculator__element ">
                   <input type="radio" name="fundament" id="fundament_1" class="calculator-element-input" value="0"
-                    data-name="Уже есть фундамент">
+                    data-name="Уже есть фундамент" checked>
                   <label for="fundament_1" class="calculator-element">
                     <div class="calculator-element__cover">
                       <img src="img/f-1.png" alt="">
@@ -114,7 +127,7 @@
                 </div>
                 <div class="project-calculator__element ">
                   <input type="radio" name="fundament" id="fundament_2" class="calculator-element-input" value="230000"
-                    data-name="Свайно-винтовой" checked>
+                    data-name="Свайно-винтовой">
                   <label for="fundament_2" class="calculator-element">
                     <div class="calculator-element__cover">
                       <img src="img/f-2.png" alt="">
@@ -145,7 +158,7 @@
               <div class="project-calculator__elements" id="crovlys">
                 <div class="project-calculator__element ">
                   <input type="radio" name="crovly" id="crovly_1" class="calculator-element-input" value="0"
-                    data-name="Рубероид">
+                    data-name="Рубероид" checked>
                   <label for="crovly_1" class="calculator-element">
                     <div class="calculator-element__cover">
                       <img src="img/k-1.png" alt="">
@@ -171,7 +184,7 @@
                 </div>
                 <div class="project-calculator__element ">
                   <input type="radio" name="crovly" id="crovly_4" class="calculator-element-input" value="240000"
-                    data-name="Профлист" checked>
+                    data-name="Профлист">
                   <label for="crovly_4" class="calculator-element">
                     <div class="calculator-element__cover">
                       <img src="img/k-4.png" alt="">
@@ -210,6 +223,102 @@
                 </div>
               </div>
             </div>
+            <div class="project-calculator__row">
+              <h3>Дополнительно</h3>
+              <div class="project-calculator__elements" id="dops">
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="carniz" id="carniz" class="calculator-element-input" value="84660"
+                    data-name="Подшив карнизов с водостоком">
+                  <label for="carniz" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Подшив карнизов с водостоком</p>
+                      <h4 class="calculator-element__price">84 660 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="okosycka" id="okosycka" class="calculator-element-input" value="74700"
+                    data-name="Окосячка">
+                  <label for="okosycka" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Окосячка</p>
+                      <h4 class="calculator-element__price">74 700 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="okna" id="okna" class="calculator-element-input" value="49800"
+                    data-name="Окосячка">
+                  <label for="okna" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Окна</p>
+                      <h4 class="calculator-element__price">49 800 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="dveri" id="dveri" class="calculator-element-input" value="64700"
+                    data-name="Окосячка">
+                  <label for="dveri" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Двери</p>
+                      <h4 class="calculator-element__price">64 700 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="uteplenie" id="uteplenie" class="calculator-element-input" value="44820"
+                    data-name="Окосячка">
+                  <label for="uteplenie" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Утепление</p>
+                      <h4 class="calculator-element__price">44 820 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="pol" id="pol" class="calculator-element-input" value="59760"
+                    data-name="Окосячка">
+                  <label for="pol" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Пол чистовой (доска пола)</p>
+                      <h4 class="calculator-element__price">59 760 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+                <div class="project-calculator__element ">
+                  <input type="checkbox" name="potolok" id="potolok" class="calculator-element-input" value="54780"
+                    data-name="Окосячка">
+                  <label for="potolok" class="calculator-element">
+                    <div class="calculator-element__cover">
+                      <img src="img/images.png" alt="">
+                    </div>
+                    <div class="calculator-element__content">
+                      <p>Потолок чистовой (имитация бруса)</p>
+                      <h4 class="calculator-element__price">54 780 ₽</h4>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="project-calculator__tablo ">
             <h3 class="op-0">Итого</h3>
@@ -236,7 +345,7 @@
 
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"
     integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="script.js?v=1.0.1"></script>
 
 </body>
 

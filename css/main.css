@@ -41,6 +41,7 @@ body {
 }
 .project-calculator__element {
   flex: 0 0 268px;
+  height: auto;
   position: relative;
 }
 .project-calculator__tablo {
@@ -52,12 +53,14 @@ body {
 .calculator-element {
   position: relative;
   margin: 0;
+  height: 100%;
   cursor: pointer;
   background: #f9f9f9;
   border-radius: 5px;
   display: flex;
   box-sizing: border-box;
   border: 1px solid rgba(143, 143, 143, 0.8);
+  overflow: hidden;
 }
 .calculator-element::after {
   content: "";
@@ -72,6 +75,7 @@ body {
   transition: all 0.5s ease;
 }
 .calculator-element__cover {
+  flex: 0 0 auto;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

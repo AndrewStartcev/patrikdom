@@ -45,6 +45,7 @@ body {
 
 	&__element {
 		flex: 0 0 268px;
+		height: auto;
 		position: relative;
 	}
 
@@ -58,12 +59,14 @@ body {
 .calculator-element {
 	position: relative;
 	margin: 0;
+	height: 100%;
 	cursor: pointer;
 	background: #f9f9f9;
 	border-radius: 5px;
 	display: flex;
 	box-sizing: border-box;
 	border: 1px solid rgba(#8f8f8f, 0.8);
+	overflow: hidden;
 	&::after {
 		content: '';
 		width: 26px;
@@ -77,6 +80,7 @@ body {
 		transition: all 0.5s ease;
 	}
 	&__cover {
+		flex: 0 0 auto;
 		user-select: none;
 		width: 86px;
 		img {
